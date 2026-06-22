@@ -1,0 +1,22 @@
+[general]
+end_press_key = false
+
+[monophone_training]
+train_dir = "train"
+iteration = 14
+tolerance = 0.001
+convergence = 1e-2
+component_per_state = 4
+enable = false
+
+
+[predict]
+predict_dir = "predict"
+beam_size = 25
+real_time = true
+enable = false
+
+[storage]
+monophone_modele_file = "monophone-f64.json"
+phonemes_file = "phonemes.json"
+log_prob_bigram_file = "log-prob-bigram.json"
