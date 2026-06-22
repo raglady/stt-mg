@@ -27,6 +27,9 @@ The training configurations are :
 
 The predict main configuration is the beam size.
 
+## Prerequisite
+To use the package stt-cuda, you need to have nvcc installed and available in your PATH.
+
 ## To launch
 ```
 cargo run --release -p stt-f64 -- --config-file config-f64.toml
